@@ -1,6 +1,6 @@
-#Experiencia 2 Semana 6: Teatro Moro
+# Experiencia 2 Semana 6: Teatro Moro
 
-##Logica de Depuración para Validación y seleccion de asientos
+## Logica de Depuración para Validación y seleccion de asientos
 ![!row.matches("[A-J]") Breakpoint 1.1](images/row_matches_1.png)
 ![!row.matches("[A-J]") Breakpoint 1.2](images/row_matches_2.png)
 Se utiliza este breakpoint para evidenciar que al ingresar una fila no válida, el flujo invita al usuario a intentar nuevamente e ingresar un valor aceptado.
