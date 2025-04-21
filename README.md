@@ -1,5 +1,7 @@
 # Experiencia 2 Semana 6: Teatro Moro
 
+*Aviso:* Las imagenes pueden no coincidir en la imagen versus su estado final, puesto que realicé unas mejoras luego de realizar distintos cambios
+
 ## Logica de Depuración para Validación y seleccion de asientos
 ![!row.matches("[A-J]") Breakpoint 1.1](images/row_matches_1.png)
 ![!row.matches("[A-J]") Breakpoint 1.2](images/row_matches_2.png)
