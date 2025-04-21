@@ -1,6 +1,6 @@
-* Experiencia 2 Semana 6: Teatro Moro
+#Experiencia 2 Semana 6: Teatro Moro
 
-** Logica de Depuración para Validación y seleccion de asientos
+##Logica de Depuración para Validación y seleccion de asientos
 ![!row.matches("[A-J]") Breakpoint 1.1](images/row_matches_1.png)
 ![!row.matches("[A-J]") Breakpoint 1.2](images/row_matches_2.png)
 Se utiliza este breakpoint para evidenciar que al ingresar una fila no válida, el flujo invita al usuario a intentar nuevamente e ingresar un valor aceptado.
@@ -13,7 +13,7 @@ Con este breakpoint, se puede verificar el estado inicial de reserveOrders y su 
 ![tickets.addAll(ticketsToReserve) 3.2](images/tickets_add_all_2.png)
 Con este breakpoint, podemos revisar si todos los tickets(asientos) que fueron seleccionados en los pasos anteriores fueron agregados al listado total de los tickets en uso(sean reservas o compras): Hace posible verificar el cambio en la cantidad de elementos.
 
-** Depuración para reservas que se transforman en compras
+## Depuración para reservas que se transforman en compras
 ![e.setIsReserved(false) Breakpoint 4.1](images/setIsReserved_1.png)
 ![e.setIsReserved(false) Breakpoint 4.2](images/setIsReserved_2.png)
 Con este breakpoint, se permite validar si se actualiza correctamente el estado isReserved al momento de transformar una reserva en compra.
@@ -26,7 +26,7 @@ En este punto, podemos validar que fue capturada correctamente la informacion qu
 ![reserveOrders.remove(foundOrder) 6.2](images/reserveOrders_remove_2.png)
 En esta depuración, verificamos que reserveOrders elimina correctamente de su contenido la orden que fue transformada en compra.
 
-** Depuración en proceso de imprimir boletas
+## Depuración en proceso de imprimir boletas
 ![order.getBoughtDate() Breakpoint 7.1](images/bought_date_1.png)
 ![order.getBoughtDate() Breakpoint 7.1](images/bought_date_2.png)
 Validamos que la variable boughtDate se inicializa y captura la información de origen correctamente
